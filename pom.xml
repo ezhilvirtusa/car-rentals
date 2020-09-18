@@ -17,9 +17,7 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>car-rentals</finalName>
-  </build>
-  <plugin>
+	  <plugin>
    <groupId>org.sonatype.plugins</groupId>
    <artifactId>nexus-staging-maven-plugin</artifactId>
    <version>1.5.1</version>
@@ -34,11 +32,13 @@
    </executions>
    <configuration>
       <serverId>nexus</serverId>
-      <nexusUrl>http://localhost:8081/nexus/</nexusUrl>
+      <nexusUrl>http://54.197.206.117:8081/nexus/</nexusUrl>
       <skipStaging>true</skipStaging>
    </configuration>
 </plugin>
-  <distributionManagement>
+    <finalName>car-rentals</finalName>
+  </build>
+    <distributionManagement>
 		 <snapshotRepository>
 		    <id>nexus</id>
 		    <url>http://54.197.206.117/:8081/repository/car-rent-snap/</url>
