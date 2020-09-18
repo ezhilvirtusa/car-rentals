@@ -43,7 +43,7 @@
     <distributionManagement>
 		 <snapshotRepository>
 		    <id>nexus</id>
-		    <url>http://54.197.206.117/:8081/repository/car-rent-snap/</url>
+		    <url>http://54.197.206.117:8081/nexus/content/repositories/car-rent-snap/</url>
 		 </snapshotRepository>
 		
 		<repository>
