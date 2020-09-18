@@ -48,7 +48,7 @@
 		
 		<repository>
 		    <id>nexus</id>
-		    <url>http://172.31.4.16:8081/repository/car-rentals-release/</url>
+		    <url>http://54.197.206.117/:8081/repository/car-rentals-release/</url>
 		</repository>
   	</distributionManagement>
 </project>
