@@ -33,7 +33,7 @@
    </executions>
    <configuration>
       <serverId>nexus</serverId>
-      <nexusUrl>http://54.237.75.167:8081/</nexusUrl>
+      <nexusUrl>http://100.26.138.234:8081/</nexusUrl>
       <skipStaging>true</skipStaging>
    </configuration>
 </plugin>
@@ -43,12 +43,12 @@
     <distributionManagement>
 		 <snapshotRepository>
 		    <id>nexus</id>
-		    <url>http://54.237.75.167:8081/repository/car-rent-snap/</url>
+		    <url>http://100.26.138.234:8081/repository/car-rent-snap/</url>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>nexus</id>
-		    <url>http://54.237.75.167:8081/repository/car-rent-rel/</url>
+		    <url>http://100.26.138.234:8081/repository/car-rent-rel/</url>
 		</repository>
   	</distributionManagement>
 </project>
