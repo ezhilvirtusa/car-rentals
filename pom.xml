@@ -59,7 +59,7 @@
 		
 		<repository>
 		    <id>nexus</id>
-		    <url>http://54.236.51.112:8080/repository/car-rent-rel/</url>
+		    <url>http://54.236.51.112:8080/nexus/content/repositories/car-rent-rel/</url>
 		</repository>
   	</distributionManagement>
 </project>
