@@ -8,6 +8,17 @@
   <version>1.0-SNAPSHOT</version>
   <name>car-rentals Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  <properties>
+		<jdk.version>1.8</jdk.version>
+		<spring.version>5.1.2.RELEASE</spring.version>
+		<junit.version>4.11</junit.version>
+		<log4j.version>1.2.17</log4j.version>
+		<sonar.host.url>http://52.86.45.150:9000/</sonar.host.url>
+		<sonar.login>198867f4dbfdece55ff3135f9a11e1bc25f8e624</sonar.login>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+	</properties>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
