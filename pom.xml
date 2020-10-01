@@ -13,7 +13,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://54.209.204.251:9000/</sonar.host.url>
+		<sonar.host.url>http://34.204.91.116:9000/</sonar.host.url>
 		<sonar.login>1b9437064c5e24671d9ad5e8cbb69ba303968412</sonar.login>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -44,7 +44,7 @@
    </executions>
    <configuration>
       <serverId>nexus</serverId>
-      <nexusUrl>http://54.209.204.251:8080/</nexusUrl>
+      <nexusUrl>http://34.204.91.116:8080/</nexusUrl>
       <skipStaging>true</skipStaging>
    </configuration>
 </plugin>
@@ -54,12 +54,12 @@
     <distributionManagement>
 		 <snapshotRepository>
 		    <id>nexus</id>
-		    <url>http://54.209.204.251:8080/nexus/content/repositories/car-rent-snap/</url>
+		    <url>http://34.204.91.116:8080/nexus/content/repositories/car-rent-snap/</url>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>nexus</id>
-		    <url>http://54.209.204.251:8080/nexus/content/repositories/car-rent-rel/</url>
+		    <url>http://34.204.91.116:8080/nexus/content/repositories/car-rent-rel/</url>
 		</repository>
   	</distributionManagement>
 </project>
