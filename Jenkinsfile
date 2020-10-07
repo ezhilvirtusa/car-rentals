@@ -1,6 +1,9 @@
 pipeline{
+    {  environment {
+    registry = "http://35.153.67.88:8080/repository/car-rent-docker-snap/"
+    registryCredential = 'Nexus;
     agent any
-    tools{
+        tools{
         maven 'maven3'
     }
     stages{
@@ -16,7 +19,10 @@ pipeline{
         }
         stage("Build image"){
             steps{
-                    sh 'docker build -t myimage .'
+        script {
+          docker.build registry + ":$BUILD_NUMBER"
+        }
+
             }
         }
     }
